@@ -71,3 +71,124 @@ Quarterly: real GDP
 The daily Treasury yield data was aggregated to monthly averages for consistency with the other monthly economic indicators.
 
 Data was cleaned and transformed using Power Query before being incorporated into the Power BI data model.
+
+Data Preparation & Modeling
+
+The project uses Power Query and a dimensional data model to prepare the FRED datasets for analysis.
+
+Data Preparation
+
+The raw datasets were imported into Power BI and transformed using Power Query.
+
+Key preparation steps included:
+
+Standardizing column names and data types
+Converting date fields to appropriate date formats
+Creating month-start and quarter-start fields for datasets with different reporting frequencies
+Removing unnecessary columns and metadata
+Aggregating daily 10-year Treasury yield observations into monthly averages
+Separating raw data from analysis-ready fact tables
+Creating consistent time dimensions for monthly, daily, and quarterly analysis
+Data Model
+
+The Power BI model uses separate fact tables for the major economic indicators and dedicated date dimensions to support time-based analysis.
+
+The primary tables include:
+
+Fact_Unemployment
+Fact_Labor_Force
+Fact_Payrolls
+Fact_Wages
+Fact_CPI
+Fact_Fed_Funds
+Fact_Treasury_Monthly
+Fact_GDP
+
+The model also includes:
+
+Dim_Date for daily date relationships
+Dim_Month for monthly economic analysis
+Dim_Quarter for quarterly GDP analysis
+Measures for centralized DAX calculations
+
+Relationships were designed as one-to-many relationships with single-direction filtering from the date dimensions to the fact tables.
+
+Modeling Approach
+
+Separate date dimensions were used because the underlying economic indicators are reported at different frequencies. This approach allows monthly and quarterly datasets to be analyzed without forcing incompatible date relationships into a single fact table.
+
+The resulting model supports interactive filtering, time-series analysis, KPI calculations, and cross-indicator comparisons throughout the dashboard.
+
+DAX & Analytical Techniques
+
+DAX was used to create calculated measures for current-period KPIs, growth rates, trend analysis, and business-oriented economic metrics.
+
+Key Calculations
+
+The dashboard includes measures for:
+
+Current unemployment rate
+Current labor-force participation
+Current nonfarm payrolls
+Current average hourly earnings
+Inflation year-over-year growth
+Wage growth year-over-year
+Real wage growth
+Payroll growth
+Federal funds rate
+10-year Treasury yield
+Treasury-to-Fed-funds spread
+Real GDP
+Real GDP year-over-year growth
+Real GDP quarter-over-quarter growth
+Time-Based Analysis
+
+Time-intelligence techniques were used to compare economic indicators across different periods.
+
+Examples include:
+
+Month-over-month changes
+Year-over-year growth
+Quarter-over-quarter growth
+Trailing and moving-average analysis
+Current-period versus prior-period comparisons
+Business-Oriented Metrics
+
+Several measures were created to translate raw economic data into metrics that are easier to interpret from a business perspective.
+
+For example:
+
+Real Wage Growth
+
+Real wage growth is calculated as:
+
+Wage Growth YoY % − Inflation YoY %
+
+This provides an approximate measure of whether employee earnings are growing faster or slower than consumer prices.
+
+10-Year Treasury − Federal Funds Spread
+
+The spread between the 10-year Treasury yield and the federal funds rate provides additional context for the relationship between short-term and longer-term interest rates.
+
+DAX Techniques Demonstrated
+
+The project demonstrates the use of:
+
+CALCULATE
+MAX
+AVERAGE
+DIVIDE
+DATEADD
+EDATE
+DATESINPERIOD
+AVERAGEX
+Variables using VAR and RETURN
+Filter-context manipulation
+Time-intelligence calculations
+Conditional logic with IF
+
+These calculations allow the dashboard to respond dynamically to user selections and provide consistent analytical metrics across the report.
+
+
+
+
