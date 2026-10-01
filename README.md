@@ -403,5 +403,9 @@ Structuring analytical questions
 Documenting analytical methodology
 Communicating data-driven findings
 
-
+Project Files
+Power BI Dashboard — Interactive Power BI report
+Data Dictionary — Definitions of datasets and fields
+Methodology — Analytical calculations and modeling methodology
+Dashboard Screenshots — Visual previews of the completed report
 
