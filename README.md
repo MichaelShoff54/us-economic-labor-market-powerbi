@@ -189,6 +189,144 @@ Conditional logic with IF
 
 These calculations allow the dashboard to respond dynamically to user selections and provide consistent analytical metrics across the report.
 
+Dashboard Structure
 
+The Power BI report contains four interactive pages, each designed for a different analytical purpose.
 
+1. Executive Economic Overview
+
+Provides a high-level view of U.S. economic conditions through key performance indicators and trend analysis.
+
+Key metrics include:
+
+Unemployment
+Labor-force participation
+Nonfarm payrolls
+Inflation
+Wage growth
+Real wage growth
+Federal funds rate
+10-year Treasury yield
+Real GDP
+
+This page is designed for executives, financial analysts, and business stakeholders who need a concise overview of the economic environment.
+
+2. Labor Market Analysis
+
+Focuses on employment conditions and wage trends.
+
+The page analyzes:
+
+Unemployment trends
+Labor-force participation
+Nonfarm payroll growth
+Wage growth
+Wage growth relative to inflation
+
+This provides context for workforce planning, labor costs, and changes in employee purchasing power.
+
+3. Inflation & Interest Rate Analysis
+
+Examines inflation and the broader interest-rate environment.
+
+The page includes:
+
+CPI inflation trends
+Federal funds rate trends
+10-year Treasury yields
+Treasury-to-Fed-funds spread
+Inflation versus the federal funds rate
+
+These indicators provide context for purchasing power, monetary conditions, financing costs, and financial planning.
+
+4. Business Impact & Analyst Insights
+
+Translates the economic indicators into business-oriented considerations.
+
+The page evaluates:
+
+Consumer purchasing power
+Labor-market conditions
+Financing conditions
+Inflation and wage relationships
+Key economic indicators through a business conditions matrix
+
+It also includes a wage-growth-versus-inflation analysis designed to connect quantitative economic trends with potential business planning considerations.
+
+Interactive Features
+
+The report includes interactive features such as:
+
+Year filtering
+Cross-filtering between visualizations
+Interactive KPI cards
+Trend visualizations
+Conditional formatting
+Page navigation
+Business-focused analytical insights
+
+Tools & Technologies
+Business Intelligence & Visualization
+Microsoft Power BI
+Power BI Desktop
+Interactive dashboards
+Data visualization
+KPI reporting
+Data Preparation & Transformation
+Power Query
+Data cleaning
+Data transformation
+Data aggregation
+Data type standardization
+Dimensional data modeling
+Analytics & Calculations
+DAX
+Time-series analysis
+Year-over-year analysis
+Month-over-month analysis
+Quarter-over-quarter analysis
+Trend analysis
+Conditional formatting
+Data Source
+Federal Reserve Economic Data (FRED)
+Public economic datasets
+Documentation & Version Control
+GitHub
+Markdown
+Project documentation
+
+Key Insights
+
+The dashboard is designed to identify relationships and trends across major U.S. economic indicators.
+
+Examples of analytical insights supported by the dashboard include:
+
+Labor Market Conditions
+
+Changes in unemployment, labor-force participation, and payroll growth can provide context for employment conditions and potential workforce-planning considerations.
+
+Wage Growth & Purchasing Power
+
+Comparing wage growth with consumer-price inflation provides an indication of whether nominal earnings are increasing faster or slower than the general price level.
+
+Inflation & Interest Rates
+
+Examining inflation alongside the federal funds rate and Treasury yields provides context for changes in the broader monetary and financing environment.
+
+Economic Growth
+
+Real GDP growth provides an additional measure of overall economic activity and allows economic growth to be evaluated alongside labor-market and inflation trends.
+
+Business Planning Considerations
+
+The combination of these indicators can help analysts monitor external economic conditions that may be relevant to:
+
+Workforce planning
+Compensation and labor-cost analysis
+Consumer demand
+Budgeting and forecasting
+Financing decisions
+Strategic planning
+
+The dashboard is intended as an analytical monitoring tool rather than a predictive forecasting model. Conclusions should be evaluated alongside company-specific financial, operational, and market information.
 
