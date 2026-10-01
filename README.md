@@ -41,3 +41,33 @@ How are economic growth and labor-market conditions changing over time?
 What potential implications could these economic trends have for workforce planning, consumer purchasing power, and financial planning?
 
 The analysis is primarily descriptive and diagnostic rather than a forecasting model. Its purpose is to demonstrate how public economic data can be transformed into actionable business intelligence.
+
+Data Sources & Indicators
+
+All economic data used in this project was obtained from the Federal Reserve Economic Data (FRED) database maintained by the Federal Reserve Bank of St. Louis.
+
+Labor Market
+Indicator	FRED Series	Description
+Unemployment Rate	UNRATE	U.S. civilian unemployment rate
+Labor Force Participation Rate	CIVPART	Percentage of the civilian population participating in the labor force
+Nonfarm Payrolls	PAYEMS	Total U.S. nonfarm payroll employment
+Average Hourly Earnings	CES0500000003	Average hourly earnings of production and nonsupervisory employees
+Inflation & Interest Rates
+Indicator	FRED Series	Description
+Consumer Price Index	CPIAUCSL	Consumer Price Index for All Urban Consumers
+Federal Funds Rate	FEDFUNDS	Effective federal funds rate
+10-Year Treasury Yield	DGS10	U.S. 10-year Treasury constant maturity yield
+Economic Growth
+Indicator	FRED Series	Description
+Real GDP	GDPC1	Inflation-adjusted U.S. gross domestic product
+Data Frequency
+
+The datasets contain different reporting frequencies:
+
+Monthly: unemployment, labor-force participation, payrolls, wages, CPI, and federal funds rate
+Daily: 10-year Treasury yield
+Quarterly: real GDP
+
+The daily Treasury yield data was aggregated to monthly averages for consistency with the other monthly economic indicators.
+
+Data was cleaned and transformed using Power Query before being incorporated into the Power BI data model.
