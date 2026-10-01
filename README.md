@@ -330,3 +330,78 @@ Strategic planning
 
 The dashboard is intended as an analytical monitoring tool rather than a predictive forecasting model. Conclusions should be evaluated alongside company-specific financial, operational, and market information.
 
+Dashboard Screenshots
+
+The following screenshots provide an overview of the Power BI dashboard and its analytical views.
+
+Executive Economic Overview
+
+
+
+
+High-level view of U.S. economic conditions, including labor-market indicators, inflation, interest rates, and economic growth.
+
+Labor Market Analysis
+
+
+
+
+Analysis of unemployment, labor-force participation, payroll growth, wage growth, and purchasing power.
+
+Inflation & Interest Rate Analysis
+
+
+
+
+Analysis of inflation trends, federal funds rates, Treasury yields, and the relationship between inflation and interest rates.
+
+Business Impact & Analyst Insights
+
+
+
+
+Business-oriented interpretation of economic indicators, including purchasing power, labor-market conditions, financing conditions, and wage growth relative to inflation.
+
+Project Skills Demonstrated
+
+This project demonstrates practical experience across the full analytics workflow.
+
+Data Analytics
+Economic and labor-market trend analysis
+Comparative period analysis
+KPI development
+Business-focused data interpretation
+Quantitative storytelling
+Power BI
+Interactive dashboard development
+Data modeling
+DAX measures
+Time-intelligence calculations
+KPI cards
+Interactive slicers
+Cross-filtering
+Conditional formatting
+Executive reporting
+Power Query
+Data cleaning
+Data transformation
+Data aggregation
+Date normalization
+Multi-source data preparation
+Financial & Business Analysis
+Inflation analysis
+Wage and purchasing-power analysis
+Labor-market analysis
+Interest-rate analysis
+Economic-growth analysis
+Business impact assessment
+Financial planning considerations
+Professional Skills
+Translating quantitative data into business insights
+Designing reports for executive audiences
+Structuring analytical questions
+Documenting analytical methodology
+Communicating data-driven findings
+
+
+
