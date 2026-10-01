@@ -336,28 +336,28 @@ The following screenshots provide an overview of the Power BI dashboard and its 
 
 Executive Economic Overview
 
-
+![Executive Economic Overview](Screenshots/01-executive-overview.png)
 
 
 High-level view of U.S. economic conditions, including labor-market indicators, inflation, interest rates, and economic growth.
 
 Labor Market Analysis
 
-
+![Labor Market Analysis](Screenshots/02-labor-market-analysis.png)
 
 
 Analysis of unemployment, labor-force participation, payroll growth, wage growth, and purchasing power.
 
 Inflation & Interest Rate Analysis
 
-
+![Inflation & Interest Rate Analysis](Screenshots/03-inflation-interest-rates.png)
 
 
 Analysis of inflation trends, federal funds rates, Treasury yields, and the relationship between inflation and interest rates.
 
 Business Impact & Analyst Insights
 
-
+![Business Impact & Analyst Insights](Screenshots/04-business-impact.png)
 
 
 Business-oriented interpretation of economic indicators, including purchasing power, labor-market conditions, financing conditions, and wage growth relative to inflation.
